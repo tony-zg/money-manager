@@ -188,6 +188,7 @@ label {
   border: 1px solid transparent;
   border-radius: 3px;
   text-align: center;
+  width: 16vw;
 }
 
 .buttonOne:hover {
@@ -310,7 +311,7 @@ li {
 .createAccountForm {
   border: 1px solid #dedede;
   border-radius: 2px;
-  max-width: 45vh;
+  max-width: 30vh;
   text-align: center;
   margin-bottom: 7vh;
 }
