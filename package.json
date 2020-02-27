@@ -2,7 +2,8 @@
   "name": "money-manager",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/TG0606/money-manager.git",
+
+  "homepage": "https://TG0606.github.io/money-manager",
   "dependencies": {
     "@brainhubeu/react-carousel": "^1.12.9-alpha",
     "@testing-library/jest-dom": "^4.2.4",
