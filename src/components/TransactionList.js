@@ -10,7 +10,7 @@ export const TransactionList = (props) => {
         {props.transactions.map(transaction => (<Transaction
           key={transaction.id}
           transaction={transaction}
-          handleDelete={props.handleDelete}
+
          />))}
       </ul>
     </>

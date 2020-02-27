@@ -71,8 +71,7 @@ class AccountList extends React.Component {
     })
     .then( res => {
       console.log('response:', res.data.data);
-      // this.setState({ accounts: [ res.data.data, ...this.state.transactions ]  });
-      // this.setState({ grocery: [ ...this.state.grocery, myNewItem] })
+    
       this.setState({
                       accounts: [ res.data.data, ...this.state.accounts],
                       name: ''

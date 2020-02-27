@@ -84,25 +84,6 @@ class Account extends React.Component {
 
   } // addTransaction()
 
-  deleteTransaction = (id) => {
-
-    const transactionsCopy = [...this.state.transactions];
-
-    //Loop over and see where there is a transaction that matches
-    const indPos = transactionsCopy.findIndex(t => id === t.id);
-    // for (var i = 0; i < transactionsCopy.length; i++) {
-    //
-    //   if (id === transactionsCopy[i].id) {
-    //     indPos = i
-    //   }
-    // } // for loop
-
-    // REMOVE from the array, whatever is at this index position
-    transactionsCopy.splice(indPos, 1)
-    // Actually update the state. Now state has removed transaction
-    this.setState({ transactions: transactionsCopy})
-  }
-
   render(){
     return(
       <div>
