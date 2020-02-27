@@ -8,7 +8,7 @@ import React, {Component} from 'react';
     if (process.env.NODE_ENV !== 'production') {
       URL_USER = 'http://localhost:3000/users';
     } else {
-      URL_USER = 'https://money-manager-server.herokuapp.com/users';
+      URL_USER = 'https://tg-money-manager.herokuapp.com/users';
     }
 
 class Registration extends Component {

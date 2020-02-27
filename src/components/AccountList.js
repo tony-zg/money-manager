@@ -6,7 +6,7 @@ let ACCOUNT_URL;
   if (process.env.NODE_ENV !== 'production') {
     ACCOUNT_URL = 'http://localhost:3000/accounts/';
   } else {
-    ACCOUNT_URL = 'https://tymovie-server.herokuapp.com/accounts/';
+    ACCOUNT_URL = 'https://tg-money-manager.herokuapp.com/accounts/';
   }
 
 class AccountList extends React.Component {
@@ -35,7 +35,7 @@ class AccountList extends React.Component {
       .catch( err => {
         console.warn( err );
       });
-      
+
     } else {
       this.props.history.push('/login')
     }
@@ -92,7 +92,7 @@ class AccountList extends React.Component {
 
     return(
       <div>
-        <h1>Accounts</h1>
+        <h2>Accounts</h2>
           {
             this.state.accounts.length >= 1
             ?

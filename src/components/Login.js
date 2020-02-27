@@ -8,7 +8,7 @@ let URL_USER = '';
   if (process.env.NODE_ENV !== 'production') {
     URL_USER = 'http://localhost:3000/api/user_token';
   } else {
-    URL_USER = 'https://money-manager-server.herokuapp.com/api/user_token';
+    URL_USER = 'https://tg-money-manager.herokuapp.com/api/user_token';
   }
 
 

@@ -10,7 +10,7 @@ let URL_TRANSACTIONS = '';
   if (process.env.NODE_ENV !== 'production') {
     URL_TRANSACTIONS = 'http://localhost:3000/transactions/';
   } else {
-    URL_TRANSACTIONS = 'https://tymovie-server.herokuapp.com/transactions/';
+    URL_TRANSACTIONS = 'https://tg-money-manager.herokuapp.com/transactions/';
   }
 
 class Account extends React.Component {
