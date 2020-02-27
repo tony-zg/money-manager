@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/money-manager/static/css/main.e11404a9.chunk.css",
-    "main.js": "/money-manager/static/js/main.3e90fcec.chunk.js",
-    "main.js.map": "/money-manager/static/js/main.3e90fcec.chunk.js.map",
+    "main.js": "/money-manager/static/js/main.88ff7260.chunk.js",
+    "main.js.map": "/money-manager/static/js/main.88ff7260.chunk.js.map",
     "runtime-main.js": "/money-manager/static/js/runtime-main.f8532a2b.js",
     "runtime-main.js.map": "/money-manager/static/js/runtime-main.f8532a2b.js.map",
     "static/css/2.008c07f9.chunk.css": "/money-manager/static/css/2.008c07f9.chunk.css",
-    "static/js/2.c447c627.chunk.js": "/money-manager/static/js/2.c447c627.chunk.js",
-    "static/js/2.c447c627.chunk.js.map": "/money-manager/static/js/2.c447c627.chunk.js.map",
+    "static/js/2.9290c764.chunk.js": "/money-manager/static/js/2.9290c764.chunk.js",
+    "static/js/2.9290c764.chunk.js.map": "/money-manager/static/js/2.9290c764.chunk.js.map",
     "index.html": "/money-manager/index.html",
-    "precache-manifest.be4e570698ee844d6de4c8966fca7862.js": "/money-manager/precache-manifest.be4e570698ee844d6de4c8966fca7862.js",
+    "precache-manifest.58958990783e8d97f8c32ba5c2981c38.js": "/money-manager/precache-manifest.58958990783e8d97f8c32ba5c2981c38.js",
     "service-worker.js": "/money-manager/service-worker.js",
     "static/css/2.008c07f9.chunk.css.map": "/money-manager/static/css/2.008c07f9.chunk.css.map",
     "static/css/main.e11404a9.chunk.css.map": "/money-manager/static/css/main.e11404a9.chunk.css.map",
-    "static/js/2.c447c627.chunk.js.LICENSE.txt": "/money-manager/static/js/2.c447c627.chunk.js.LICENSE.txt",
+    "static/js/2.9290c764.chunk.js.LICENSE.txt": "/money-manager/static/js/2.9290c764.chunk.js.LICENSE.txt",
     "static/media/imageOne.png": "/money-manager/static/media/imageOne.89ef5fc2.png",
     "static/media/imageThree.jpg": "/money-manager/static/media/imageThree.3f5af817.jpg",
     "static/media/imageTwo.jpg": "/money-manager/static/media/imageTwo.4f6847a5.jpg"
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.f8532a2b.js",
     "static/css/2.008c07f9.chunk.css",
-    "static/js/2.c447c627.chunk.js",
+    "static/js/2.9290c764.chunk.js",
     "static/css/main.e11404a9.chunk.css",
-    "static/js/main.3e90fcec.chunk.js"
+    "static/js/main.88ff7260.chunk.js"
   ]
 }
