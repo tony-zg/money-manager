@@ -35,7 +35,6 @@ body {
 }
 
 .transactionDetails, .addNewTransaction {
-  /* border-bottom: 1px solid #bbb; */
   padding-bottom: 10px;
   margin: 40px 0 10px;
   text-align: center;
@@ -105,7 +104,7 @@ label {
   width: 100%;
   border: 1px solid transparent;
   border-radius: 3px;
-
+  margin-bottom: 9vh;
 }
 
 .btn:hover {
@@ -214,6 +213,7 @@ label {
 
 .welcome{
   text-align: center;
+  margin-bottom: 5vh;
 }
 
 a {
@@ -238,7 +238,7 @@ a:hover {
 nav {
   margin-top: 2rem;
   margin-bottom: 1vh;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #bbb;
   padding-bottom: 2vh;
 
 }
@@ -307,10 +307,20 @@ li {
 
 }
 
-.createAccountForm{
+.createAccountForm {
   border: 1px solid #dedede;
   border-radius: 2px;
   max-width: 45vh;
   text-align: center;
-  margin-bottom: 10vh;
+  margin-bottom: 7vh;
+}
+
+.footer {
+  border-top: 1px solid #bbb;
+  text-align: center;
+  padding: 2vh;
+}
+
+.iconOne {
+  margin-right:1vw;
 }
