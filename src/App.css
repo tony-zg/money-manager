@@ -202,3 +202,10 @@ label {
 .nav{
 
 }
+
+img {
+  /* margin-top: 10vh; */
+  width:800px;
+  height:350px;
+  margin-top: 10vh;
+}

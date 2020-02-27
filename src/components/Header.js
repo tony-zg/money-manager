@@ -9,8 +9,8 @@ import Registration from './Registration';
 
 import AccountList from './AccountList';
 import Account from './Account';
-
-
+import NewAccount from './NewAccount';
+import Home from './Home';
 
 class Header extends React.Component {
 
@@ -34,6 +34,7 @@ setLoginStatus = (loggedIn) => {
 handleLogout = () => {
   this.setState({ loggedIn: false });
   localStorage.removeItem('auth_token');
+  window.location.href = '/';
 
 }
 
@@ -54,8 +55,8 @@ handleLogout = () => {
 
               <Link to="/registration">Sign Up</Link>|
               <Link to="/">Home</Link>|
-              <Link to="/accounts">Accounts</Link>|
-              <Link to="/accounts/example">Example Account</Link>
+              <Link to="/accounts">Accounts</Link>
+
 
 
             </nav>
@@ -63,7 +64,10 @@ handleLogout = () => {
             <Route exact path="/login" render={(props) => <Login {...props} onLogin={this.setLoginStatus} /> } />
             <Route exact path="/registration" component={ Registration } />
             <Route exact path="/accounts" component={ AccountList } />
+            <Route exact path="/newAccount" component={ AccountList } />
+            <Route exact path="/" component={ Home } />
             <Route exact path="/accounts/:id" component={ Account } />
+
 
 
 

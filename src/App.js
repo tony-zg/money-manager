@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import  Header  from './components/Header';
-// import Carousel from '@brainhubeu/react-carousel';
-// import '@brainhubeu/react-carousel/lib/style.css';
 import './App.css';
+
+import Home from './components/Home';
+
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
         <Header />
 
       </div>
-  );
+  )
 }
 
 export default App;

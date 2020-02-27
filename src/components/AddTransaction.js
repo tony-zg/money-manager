@@ -1,17 +1,13 @@
-import React, {useState, useContext} from 'react'
-// import { GlobalContext } from '../context/GlobalState';
+import React, {useState} from 'react'
 
 export const AddTransaction = (props) => {
   const [text, setText] = useState('');
   const [amount, setAmount] = useState('');
 
-  // const { addTransaction } = useContext(GlobalContext);
-
   const onSubmit = e => {
     e.preventDefault();
 
     const newTransaction = {
-      id: Math.floor(Math.random() * 100000000),
       text,
       amount: +amount
     }
