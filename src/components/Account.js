@@ -107,8 +107,8 @@ class Account extends React.Component {
     return(
       <div>
         <GlobalProvider>
-          <h1>{this.state.name}</h1>
-
+          <br/>
+          <h2 className="accountName">{this.state.name}</h2>
           <div className="container">
             <Balance
             transactions={this.state.transactions}/>

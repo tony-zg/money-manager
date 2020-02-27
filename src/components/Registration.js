@@ -74,7 +74,7 @@ class Registration extends Component {
           <br></br>
           <input className="password" type="password" placeholder="Password" onChange={this.handlePassword}/> <br/>
           <br></br>
-          <input className="comfiredPassword" type="password" placeholder="Comfirmed Password" onChange={this.handlePasswordConfirmation}/> <br/>
+          <input className="comfiredPassword" type="password" placeholder="Confirm Password" onChange={this.handlePasswordConfirmation}/> <br/>
           <br></br>
           <input className="buttonOne" type="submit" value="Sign Up"/>
           <br></br>

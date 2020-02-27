@@ -10,6 +10,7 @@ import Registration from './Registration';
 import AccountList from './AccountList';
 import Account from './Account';
 import Home from './Home';
+import Logo from '../images/logo.png';
 
 class Header extends React.Component {
 
@@ -43,20 +44,24 @@ handleLogout = () => {
         <Router>
             <nav className="nav">
 
-                <span className="signInOut">
-                {
-                  this.state.loggedIn
-                  ?
-                  <a className="logout" onClick={this.handleLogout}>Logout</a>
-                  :
-                  <Link className="login" to="/login">Login</Link>
-                }
-
-              <Link className="signUp" to="/registration">Sign Up</Link>
-              </span>
+              <img className="logo" src={Logo} />
+              <br/>
               <Link className="home" to="/">Home</Link>
               <Link className="accounts" to="/accounts">Accounts</Link>
 
+              <span className="signInOut">
+                {
+                  this.state.loggedIn
+                  ?
+                  <Link className="logout" onClick={this.handleLogout}>Logout</Link>
+                  :
+                  <>
+                  <Link className="login" to="/login">Login</Link>
+                  <Link className="signUp" to="/registration">Sign Up</Link>
+                  </>
+                }
+
+              </span>
 
 
             </nav>

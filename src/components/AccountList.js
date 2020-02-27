@@ -92,7 +92,8 @@ class AccountList extends React.Component {
 
     return(
       <div>
-        <h2>Accounts</h2>
+        <h2 className="accountList">Accounts</h2>
+        <h4 className="allAccounts">Here are all your accounts</h4>
           {
             this.state.accounts.length >= 1
             ?
@@ -110,13 +111,15 @@ class AccountList extends React.Component {
           :
           <p>loading...</p>
           }
-
-        <form onSubmit={this.handleSubmit}>
-          <input className="title" placeholder="Title" type="text" onChange={this.handleInput} value={this.state.name}/>
-          <br/>
-          <br/>
-          <input className="button" type="submit" value="Create Account" />
-        </form>
+        <br/>
+        <div className='formContainer'>
+          <form className="createAccountForm" onSubmit={this.handleSubmit}>
+            <h4 className="otherAccounts">Create other accounts</h4>
+            <input className="title" placeholder="Name" type="text" onChange={this.handleInput} value={this.state.name}/>
+            <br/>
+            <input className="buttonCreate" type="submit" value="Create Account" />
+          </form>
+        </div>
       </div>
     );
   }
