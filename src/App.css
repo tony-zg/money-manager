@@ -188,7 +188,7 @@ label {
   border: 1px solid transparent;
   border-radius: 3px;
   text-align: center;
-  width: 16vw;
+  width: 25vh;
 }
 
 .buttonOne:hover {
@@ -281,7 +281,7 @@ li {
   background-color: #512c62;
   box-shadow: var(--box-shadow);
   color: #fff;
-  font-size: 13px;
+  font-size: 12px;
   margin: 10px 0 30px;
   padding: 10px;
   border: 1px solid transparent;
@@ -302,7 +302,7 @@ li {
   border-radius: 2px;
   display: block;
   font-size: 13px;
-  padding: 8px;
+  padding: 6px;
   margin: auto;
   margin-top: 3px;
 

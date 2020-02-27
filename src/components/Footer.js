@@ -6,7 +6,7 @@ class Footer extends React.Component {
     return(
       <div className="footer">
       <SocialIcon className="iconOne" url="http://linkedin.com/in/tonyg06" />
-        <SocialIcon url="https://github.com/TG0606" />
+      <SocialIcon url="https://github.com/TG0606" />
       </div>
     );
   }
