@@ -43,18 +43,19 @@ handleLogout = () => {
         <Router>
             <nav className="nav">
 
-
+                <span className="signInOut">
                 {
                   this.state.loggedIn
                   ?
-                  <a onClick={this.handleLogout}>Logout</a>
+                  <a className="logout" onClick={this.handleLogout}>Logout</a>
                   :
-                  <Link to="/login">Login</Link>
-                }|
+                  <Link className="login" to="/login">Login</Link>
+                }
 
-              <Link to="/registration">Sign Up</Link>|
-              <Link to="/">Home</Link>|
-              <Link to="/accounts">Accounts</Link>
+              <Link className="signUp" to="/registration">Sign Up</Link>
+              </span>
+              <Link className="home" to="/">Home</Link>
+              <Link className="accounts" to="/accounts">Accounts</Link>
 
 
 

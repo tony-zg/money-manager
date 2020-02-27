@@ -20,7 +20,7 @@ function Home() {
           <img src={ImageThree} />
         </Carousel>
         <br/>
-        <h1>Welcome Aboard!</h1>
+        <h1 className="welcome">Welcome! Manage your money with ease</h1>
       </div>
   )
 }

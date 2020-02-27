@@ -189,7 +189,7 @@ label {
   text-align: center;
 }
 
-.button:hover {
+.buttonOne:hover {
   background-color: #f75f00;
 }
 
@@ -208,4 +208,36 @@ img {
   width:800px;
   height:350px;
   margin-top: 10vh;
+}
+
+.welcome{
+  text-align: center;
+}
+
+a {
+  color: #512c62;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#f75f00;
+}
+
+.logout, .login, .signUp {
+  margin-right: 1vw;
+}
+
+.home {
+  margin-right: 1vw;
+  margin-left: 2vw;
+}
+
+nav {
+  margin-top: 2rem;
+  width-max: 60%;
+  margin-right: 2vw;
+}
+
+.signInOut {
+  float: right;
 }
