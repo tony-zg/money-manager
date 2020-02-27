@@ -23,7 +23,7 @@ class AccountList extends React.Component {
 
     if(token) {
 
-      axios.get(URL, {
+      axios.get(ACCOUNT_URL, {
         headers: {
           'Authorization': `Bearer ${token}`
         }

@@ -14,16 +14,22 @@ import Logo from '../images/logo.png';
 
 class Header extends React.Component {
 
-  state = {
-  loggedIn: false
+  constructor(props){
+    super(props);
+    this.state = {
+      loggedIn: false
+    };
+    this.routerRef = React.createRef();
+    window.reff = this.routerRef;
+  }
 
-};
 
 componentDidMount(){
   const token = localStorage.getItem('auth_token');
   if(token){
     this.setState({ loggedIn: true });
   }
+
 }
 
 setLoginStatus = (loggedIn) => {
@@ -34,14 +40,13 @@ setLoginStatus = (loggedIn) => {
 handleLogout = () => {
   this.setState({ loggedIn: false });
   localStorage.removeItem('auth_token');
-  window.location.href = '/';
-
+  this.routerRef.current.history.push('/');
 }
 
   render() {
     return (
       <div>
-        <Router>
+        <Router ref={this.routerRef}>
             <nav className="nav">
 
               <img className="logo" src={Logo} />
@@ -66,7 +71,7 @@ handleLogout = () => {
 
             </nav>
 
-            <Route exact path="/login" render={(props) => <Login {...props} onLogin={this.setLoginStatus} /> } />
+            <Route exact path="/login" render={(props) => <Login {...props} onLogin={this.setLoginStatus} /> }  />
             <Route exact path="/registration" component={ Registration } />
             <Route exact path="/accounts" component={ AccountList } />
             <Route exact path="/newAccount" component={ AccountList } />
