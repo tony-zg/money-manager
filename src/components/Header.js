@@ -9,7 +9,6 @@ import Registration from './Registration';
 
 import AccountList from './AccountList';
 import Account from './Account';
-import NewAccount from './NewAccount';
 import Home from './Home';
 
 class Header extends React.Component {

@@ -11,7 +11,7 @@ function Home() {
       <div>
         <Carousel
           animationSpeed={1500}
-          autoPlay={3500}
+          autoPlay={3000}
           stopAutoPlayOnHover
           infinite
         >
@@ -20,7 +20,7 @@ function Home() {
           <img src={ImageThree} />
         </Carousel>
         <br/>
-        <p>Welcome Aboard</p>
+        <h1>Welcome Aboard!</h1>
       </div>
   )
 }
