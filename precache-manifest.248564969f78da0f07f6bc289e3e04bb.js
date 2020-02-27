@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1b8240d6790e53e40c3a314fabb95f9e",
+    "revision": "e9c1e7dcae388aa2e26f52dc22ea40f8",
     "url": "/money-manager/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/money-manager/static/css/2.008c07f9.chunk.css"
   },
   {
-    "revision": "e04cdd30ca98cae38c8d",
+    "revision": "ec3b0a385d1b67d91eb3",
     "url": "/money-manager/static/css/main.ba770ccc.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/money-manager/static/js/2.20d10255.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e04cdd30ca98cae38c8d",
-    "url": "/money-manager/static/js/main.3386c4d8.chunk.js"
+    "revision": "ec3b0a385d1b67d91eb3",
+    "url": "/money-manager/static/js/main.f681aa58.chunk.js"
   },
   {
     "revision": "18dc39c05d2e76faac24",
