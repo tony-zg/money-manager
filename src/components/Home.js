@@ -19,7 +19,7 @@ function Home() {
           <img className="imageTwo" src={ImageTwo} />
           <img className="imageThree" src={ImageThree} />
         </Carousel>
-        <br/>
+        
         <h2 className="welcome">Manage your money with ease</h2>
       </div>
   )
