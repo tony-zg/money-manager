@@ -18,7 +18,7 @@ class AccountList extends React.Component {
   };
 
   componentDidMount(){
-    const URL = 'http://localhost:3000/accounts';
+
     const token = localStorage.getItem('auth_token');
 
     if(token) {
@@ -71,7 +71,7 @@ class AccountList extends React.Component {
     })
     .then( res => {
       console.log('response:', res.data.data);
-    
+
       this.setState({
                       accounts: [ res.data.data, ...this.state.accounts],
                       name: ''
