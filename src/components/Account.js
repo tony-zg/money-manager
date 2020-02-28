@@ -12,12 +12,6 @@ let URL_TRANSACTIONS = '';
   } else {
     URL_TRANSACTIONS = 'https://tg-money-manager.herokuapp.com/accounts/';
   }
-let URL_TRANSACTION = '';
-  if (process.env.NODE_ENV !== 'production') {
-    URL_TRANSACTION = 'http://localhost:3000/transactions/';
-  } else {
-    URL_TRANSACTION = 'https://tg-money-manager.herokuapp.com/transactions/';
-  }
 
 class Account extends React.Component {
 
@@ -61,7 +55,7 @@ class Account extends React.Component {
     console.log('token!', token)
     if (token !== null) {
 
-      axios.post(URL_TRANSACTION,
+      axios.post(URL_TRANSACTIONS,
       // form data (becomes params in Rails)
       {
         text: transaction.text,
