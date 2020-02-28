@@ -8,9 +8,9 @@ import { GlobalProvider } from '../context/GlobalState';
 
 let URL_TRANSACTIONS = '';
   if (process.env.NODE_ENV !== 'production') {
-    URL_TRANSACTIONS = 'http://localhost:3000/transactions/';
+    URL_TRANSACTIONS = 'http://localhost:3000/accounts/';
   } else {
-    URL_TRANSACTIONS = 'https://tg-money-manager.herokuapp.com/transactions/';
+    URL_TRANSACTIONS = 'https://tg-money-manager.herokuapp.com/accounts/';
   }
 
 class Account extends React.Component {
