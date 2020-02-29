@@ -108,7 +108,7 @@ class AccountList extends React.Component {
             }
           </ul>
           :
-          <p>No accounts...</p>
+          <p>No accounts</p>
           }
         <br/>
         <div className='formContainer'>
