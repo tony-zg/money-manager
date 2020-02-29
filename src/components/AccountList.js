@@ -108,13 +108,13 @@ class AccountList extends React.Component {
             }
           </ul>
           :
-          <p>loading...</p>
+          <p>No accounts...</p>
           }
         <br/>
         <div className='formContainer'>
           <form className="createAccountForm" onSubmit={this.handleSubmit}>
             <h4 className="otherAccounts">Create other accounts</h4>
-            <input className="title" placeholder="Name" type="text" onChange={this.handleInput} value={this.state.name}/>
+            <input className="title" placeholder="Account Name" type="text" onChange={this.handleInput} value={this.state.name}/>
             <br/>
             <input className="buttonCreate" type="submit" value="Create Account" />
           </form>
