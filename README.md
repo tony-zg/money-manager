@@ -8,27 +8,27 @@
 
 <h1>How to use</h1>
 
-<p>
-A user needs to login or sign up to be able to use this application
-User can see and create accounts in account list after login
-User can create different positive or negative transactions with description
-Balance is displayed on top as well as saving and cost in transaction page
-Pre-made accounts are available below: <br>
-email: tony@ga.co, password: chicken <br>
-email: luke@ga.co, password: chicken <br>
-email: josh@ga.co, password: chicken
-</p>
+<ul>
+<li>A user needs to login or sign up to be able to use this application</li><br>
+<li>User can see and create accounts in account list after login</li><br>
+<li>User can create different positive or negative transactions with description</li><br>
+<li>Balance is displayed on top as well as saving and cost in transaction page</li><br>
+<li>Pre-made accounts are available below: </li><br>
+<li>email: tony@ga.co, password: chicken </li><br>
+<li>email: luke@ga.co, password: chicken </li><br>
+<li>email: josh@ga.co, password: chicken </li>
+</ul>
 
 <h1>Technologies</h1>
-<p>
-Front-end: React <br>
-Back-end: Ruby on Rails 5 <br>
-Database: PostgreSQL 12 <br>
-Deployed on Heroku
-</p>
+<ul>
+<li>Front-end: React</li> <br>
+<li>Back-end: Ruby on Rails 5</li> <br>
+<li>Database: PostgreSQL 12</li> <br>
+<li>Deployed on Heroku</li>
+</ul>
 
 <h1>To do list</h1>
-<p>
-Users are able to delete accounts <br>
-Search bar for transactions
-</p>
+<ul>
+<li>Users are able to delete accounts</li> <br>
+<li>Search bar for transactions</li>
+</ul>
