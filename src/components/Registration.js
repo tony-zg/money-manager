@@ -53,6 +53,7 @@ class Registration extends Component {
     console.log(res);
     this.props.history.push('/login');
     })
+    // .catch(console.warn);
   };
 
   handleSubmit = event => {
