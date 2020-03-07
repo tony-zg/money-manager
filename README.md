@@ -9,7 +9,7 @@
 <h1>How to use</h1>
 
 <ul>
-<li>A user needs to login or sign up to be able to use this application</li><br>
+<li>A user needs to log in or sign up to be able to use this application</li><br>
 <li>User can see and create accounts in account list after login</li><br>
 <li>User can create different positive or negative transactions with description</li><br>
 <li>Balance is displayed on top as well as saving and cost in transaction page</li><br>
