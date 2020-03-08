@@ -32,6 +32,6 @@ This is the front-end for this application. Here is the link: https://tg0606.git
 <h1>To do list</h1>
 <ul>
 <li>Users are able to delete accounts</li> <br>
-<li>Search bar for transactions</li>
+<li>Search bar for transactions</li><br>
 <li>Error message for login and sign up</li>
 </ul>
