@@ -1,6 +1,8 @@
 <h1>Money Manager</h1>
 
-<p>This is my first full-stack application that allows users to create accounts, by adding transactions to track their spending, saving and balance.</p>
+<p>This is my first full-stack application that allows users to create accounts, by adding transactions to track their spending, saving and balance. <br>
+This is the front-end for this application. Here is the link: https://tg0606.github.io/money-manager
+</p>
 
 <h1>Screenshot</h1>
 
@@ -31,4 +33,5 @@
 <ul>
 <li>Users are able to delete accounts</li> <br>
 <li>Search bar for transactions</li>
+<li>Error message for login and sign up</li>
 </ul>
