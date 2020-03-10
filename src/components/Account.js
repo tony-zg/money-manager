@@ -37,7 +37,7 @@ class Account extends React.Component {
         }
       })
       .then( res => {
-        console.log('response:', res.data);
+        // console.log('response:', res.data);
         this.setState({transactions: res.data.transactions, name: res.data.name})
       })
       .catch( err => {
@@ -86,7 +86,7 @@ class Account extends React.Component {
 
   render(){
     return(
-      <div>
+      <div className="accountDetails">
         <GlobalProvider>
           <br/>
           <h2 className="accountName">{this.state.name}</h2>

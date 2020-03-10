@@ -237,7 +237,6 @@ a:hover {
 }
 
 nav {
-  margin-top: 2rem;
   margin-bottom: 1vh;
   border-bottom: 1px solid #bbb;
   padding-bottom: 2vh;
@@ -251,8 +250,10 @@ nav {
 .logo{
   width: 150px;
   height: 50px;
-  margin-bottom: 3vh;
+  margin-top:4vh;
+  margin-bottom: 4vh;
 }
+
 
 .carouselStyle {
   width: 100%;
@@ -324,4 +325,22 @@ li {
 
 .iconOne {
   margin-right:1vw;
+}
+
+@media only screen and (max-width: 600px) {
+  a {
+    font-size: 13px;
+  }
+  a.home, a.account, a.login, a.signUp {
+    margin-right: 6px;
+  }
+  .container {
+    width: auto;
+  }
+  .inc-exp-container {
+    padding: 0;
+  }
+  .headerImage{
+    text-align: center;
+  }
 }

@@ -1,8 +1,8 @@
-import React, { useContext } from 'react';
-import { GlobalContext } from '../context/GlobalState';
+import React from 'react';
+// import { GlobalContext } from '../context/GlobalState';
 
 export const Balance = (props) => {
-  const { transactions } = useContext(GlobalContext);
+  // const { transactions } = useContext(GlobalContext);
 
   const amounts = props.transactions.map(transaction => transaction.amount);
 

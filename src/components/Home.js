@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ImageOne from '../images/imageOne.png';
 import ImageTwo from '../images/imageTwo.jpg';
 import ImageThree from '../images/imageThree.jpg';
@@ -15,11 +15,11 @@ function Home() {
           stopAutoPlayOnHover
           infinite
         >
-          <img className="imageOne" src={ImageOne} />
-          <img className="imageTwo" src={ImageTwo} />
-          <img className="imageThree" src={ImageThree} />
+          <img className="imageOne" alt="" src={ImageOne} />
+          <img className="imageTwo" alt="" src={ImageTwo} />
+          <img className="imageThree" alt="" src={ImageThree} />
         </Carousel>
-        
+
         <h2 className="welcome">Manage your money with ease</h2>
       </div>
   )

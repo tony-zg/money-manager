@@ -45,12 +45,12 @@ handleLogout = () => {
 
   render() {
     return (
-      <div>
+      <div className="content">
         <Router ref={this.routerRef}>
+          <div className="headerImage"><img className="logo" alt="logo" src={Logo} /></div>
+
             <nav className="nav">
 
-              <img className="logo" src={Logo} />
-              <br/>
               <Link className="home" to="/">Home</Link>
               <Link className="accounts" to="/accounts">Accounts</Link>
 
