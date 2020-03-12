@@ -6,11 +6,14 @@ import { TransactionList } from './TransactionList';
 import { AddTransaction } from './AddTransaction';
 import { GlobalProvider } from '../context/GlobalState';
 
+let URL_ACCOUNTS = '';
 let URL_TRANSACTIONS = '';
   if (process.env.NODE_ENV !== 'production') {
-    URL_TRANSACTIONS = 'http://localhost:3000/accounts/';
+    URL_ACCOUNTS = 'http://localhost:3000/accounts/';
+    URL_TRANSACTIONS = 'http://localhost:3000/transactions/';
   } else {
-    URL_TRANSACTIONS = 'https://tg-money-manager.herokuapp.com/accounts/';
+    URL_ACCOUNTS = 'https://tg-money-manager.herokuapp.com/accounts/';
+    URL_TRANSACTIONS = 'https://tg-money-manager.herokuapp.com/transactions/';
   }
 
 class Account extends React.Component {
@@ -25,7 +28,7 @@ class Account extends React.Component {
 
   componentDidMount(){
     const accountID = this.props.match.params.id;
-    const URL = `${URL_TRANSACTIONS}${accountID}`;
+    const URL = `${URL_ACCOUNTS}${accountID}`;
 
     const token = localStorage.getItem('auth_token');
 
@@ -37,7 +40,7 @@ class Account extends React.Component {
         }
       })
       .then( res => {
-        // console.log('response:', res.data);
+        console.log('response:', res.data);
         this.setState({transactions: res.data.transactions, name: res.data.name})
       })
       .catch( err => {
@@ -52,6 +55,7 @@ class Account extends React.Component {
 
   addTransaction = (transaction) => {
     const token = localStorage.getItem('auth_token');
+
     console.log('token!', token)
     if (token !== null) {
 
@@ -86,7 +90,7 @@ class Account extends React.Component {
 
   render(){
     return(
-      <div className="accountDetails">
+      <div>
         <GlobalProvider>
           <br/>
           <h2 className="accountName">{this.state.name}</h2>

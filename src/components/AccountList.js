@@ -29,7 +29,7 @@ class AccountList extends React.Component {
         }
       })
       .then( res => {
-        console.log('response:', res.data);
+        // console.log('response:', res.data);
         this.setState({accounts: res.data})
       })
       .catch( err => {
