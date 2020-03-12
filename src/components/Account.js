@@ -7,21 +7,16 @@ import { AddTransaction } from './AddTransaction';
 import { GlobalProvider } from '../context/GlobalState';
 
 let URL_ACCOUNTS = '';
-
   if (process.env.NODE_ENV !== 'production') {
     URL_ACCOUNTS = 'http://localhost:3000/accounts/';
-
   } else {
     URL_ACCOUNTS = 'https://tg-money-manager.herokuapp.com/accounts/';
-
   }
-  
-  let URL_TRANSACTIONS = '';
-  if (process.env.NODE_ENV !== 'production') {
 
+let URL_TRANSACTIONS = '';
+  if (process.env.NODE_ENV !== 'production') {
     URL_TRANSACTIONS = 'http://localhost:3000/transactions/';
   } else {
-
     URL_TRANSACTIONS = 'https://tg-money-manager.herokuapp.com/transactions/';
   }
 
